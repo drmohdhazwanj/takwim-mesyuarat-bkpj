@@ -1,4 +1,36 @@
 {
+  "Januari": [
+    {
+      "title": "Mesyuarat Penempatan Pegawai Pergigian Bukan Pakar",
+      "date": "13 Januari 2026",
+      "urusetia": "Seksyen Amalan dan Perkembangan"
+    }
+  ],
+  "Februari": [
+    {
+      "title": "Mesyuarat Pencapaian dan POA Kepakaran BKPJ",
+      "date": "3 Februari 2026",
+      "urusetia": "Seksyen Penjagaan Kesihatan"
+    }
+  ],
+  "Mac": [
+    {
+      "title": "Mesyuarat Pengurusan dan Teknikal (MPTEK) Bil. 1",
+      "date": "10 Mac 2026",
+      "urusetia": "Seksyen Dasar & Perancangan"
+    }
+  ],
+  "April": [
+    {
+      "title": "Mesyuarat JPKA JKPAK Suku 1 (Jan–Mac 2026)",
+      "date": "23 April 2026",
+      "urusetia": "Seksyen Dasar & Perancangan"
+    }
+  ],
+
+  // (data Mei–Disember yang sedia ada kekal di bawah)
+}
+
   "Mei": [
     {
       "title": "Mesyuarat Pengurusan dan Teknikal (MPTEK) Bil. 2",
@@ -61,3 +93,4 @@
     }
   ]
 }
+
