@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+  <meta charset="UTF-8">
+  <title>Takwim Mesyuarat 2026 | BKPJ JKN Johor</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f4f6f8;
+    }
+    header {
+      background: #0f2a44;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 20px auto;
+      padding: 0 16px;
+    }
+    .filters input, .filters select {
+      padding: 8px;
+      margin-right: 6px;
+      margin-bottom: 10px;
+    }
+    .month {
+      background: white;
+      margin-bottom: 16px;
+      border-radius: 8px;
+      overflow: hidden;
+    }
+    .month-header {
+      background: #1f4d7a;
+      color: white;
+      padding: 10px 14px;
+      font-weight: bold;
+    }
+    .meeting {
+      padding: 12px 14px;
+      border-top: 1px solid #eee;
+    }
+    .meeting-title {
+      font-weight: bold;
+    }
+    .meeting-meta {
+      font-size: 13px;
+      color: #555;
+    }
+  </style>
+</head>
+
+<body>
+<header>
+  <h1>TAKWIM MESYUARAT 2026</h1>
+  <p>Bahagian Kesihatan Pergigian<br>Jabatan Kesihatan Negeri Johor</p>
+</header>
+
+<div class="container">
+  <div class="filters">
+    <input type="text" placeholder="Cari mesyuarat…" oninput="applyFilters()">
+    <select onchange="applyFilters()" id="bulan">
+      <option>Semua Bulan</option>
+    </select>
+    <select onchange="applyFilters()" id="urusetia">
+      <option>Semua Urusetia</option>
+    </select>
+  </div>
+
+  <div id="takwim"></div>
+</div>
+
+<script>
+let DATA = {};
+
+fetch('takwim-2026.json')
+  .then(r => {
+    if (!r.ok) throw new Error();
+    return r.json();
+  })
+  .then(data => {
+    DATA = data;
+    initFilters();
+    render(DATA);
+  });
+
+function initFilters() {
+  const bulan = document.getElementById('bulan');
+  const urusetia = document.getElementById('urusetia');
+  Object.keys(DATA).forEach(b => {
+    bulan.innerHTML += `<option>${b}</option>`;
+    DATA[b].forEach(m => {
+      if (![...urusetia.options].some(o => o.value === m.urusetia)) {
+        urusetia.innerHTML += `<option>${m.urusetia}</option>`;
+      }
+    });
+  });
+}
+
+function applyFilters() {
+  const key = document.querySelector('input').value.toLowerCase();
+  const bulan = document.getElementById('bulan').value;
+  const uru = document.getElementById('urusetia').value;
+  const out = {};
+
+  Object.keys(DATA).forEach(b => {
+    if (bulan !== 'Semua Bulan' && b !== bulan) return;
+    const list = DATA[b].filter(m =>
+      (!key || m.title.toLowerCase().includes(key)) &&
+      (uru === 'Semua Urusetia' || m.urusetia === uru)
+    );
+    if (list.length) out[b] = list;
+  });
+
+  render(out);
+}
+
+function render(data) {
+  const el = document.getElementById('takwim');
+  el.innerHTML = '';
+  Object.keys(data).forEach(b => {
+    let html = `<div class="month"><div class="month-header">${b} 2026</div>`;
+    data[b].forEach(m => {
+      html += `
+        <div class="meeting">
+          <div class="meeting-title">${m.title}</div>
+          <div class="meeting-meta">${m.date} · ${m.urusetia}</div>
+        </div>`;
+    });
+    html += '</div>';
+    el.innerHTML += html;
+  });
+}
+</script>
+</body>
+</html>

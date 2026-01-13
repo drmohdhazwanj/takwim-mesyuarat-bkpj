@@ -1,0 +1,63 @@
+{
+  "Mei": [
+    {
+      "title": "Mesyuarat Pengurusan dan Teknikal (MPTEK) Bil. 2",
+      "date": "21 Mei 2026",
+      "urusetia": "Seksyen Dasar & Perancangan"
+    }
+  ],
+  "Jun": [
+    {
+      "title": "Mesyuarat Pegawai Sangkutan Kepakaran Bil. 2",
+      "date": "19 Jun 2026",
+      "urusetia": "Seksyen Dasar & Perancangan"
+    },
+    {
+      "title": "Mesyuarat Pra Penyemakan Markah Lantikan Tetap PP Kohort 2/24",
+      "date": "25 Jun 2026",
+      "urusetia": "Seksyen Amalan dan Perkembangan"
+    }
+  ],
+  "Julai": [
+    {
+      "title": "Mesyuarat Pengurusan dan Teknikal (MPTEK) Bil. 3",
+      "date": "23 Julai 2026",
+      "urusetia": "Seksyen Dasar & Perancangan"
+    }
+  ],
+  "Ogos": [
+    {
+      "title": "Mesyuarat Penyelia dan Juruterapi Pergigian Kanan Bil. 2/2026",
+      "date": "18 Ogos 2026",
+      "urusetia": "Seksyen Dasar & Perancangan"
+    }
+  ],
+  "September": [
+    {
+      "title": "Mesyuarat Pengurusan dan Teknikal (MPTEK) Bil. 4",
+      "date": "10 September 2026",
+      "urusetia": "Seksyen Dasar & Perancangan"
+    }
+  ],
+  "Oktober": [
+    {
+      "title": "Mesyuarat JPKA JKPAK Suku 3 (Julai–Sept 2026)",
+      "date": "22 Oktober 2026",
+      "urusetia": "Seksyen Dasar & Perancangan"
+    }
+  ],
+  "November": [
+    {
+      "title": "Mesyuarat Pengurusan dan Teknikal (MPTEK) Bil. 5",
+      "date": "19 November 2026",
+      "urusetia": "Seksyen Dasar & Perancangan"
+    }
+  ],
+  "Disember": [
+    {
+      "title": "Mesyuarat Pengurusan dan Teknikal (MPTEK) Bil. 6",
+      "date": "17 Disember 2026",
+      "urusetia": "Seksyen Dasar & Perancangan"
+    }
+  ]
+}
