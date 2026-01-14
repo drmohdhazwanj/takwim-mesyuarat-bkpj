@@ -4,32 +4,87 @@
       "title": "Mesyuarat Penempatan Pegawai Pergigian Bukan Pakar",
       "date": "13 Januari 2026",
       "urusetia": "Seksyen Amalan dan Perkembangan"
+    },
+    {
+      "title": "Mesyuarat KPI BKPJ",
+      "date": "13 Januari 2026",
+      "urusetia": "Seksyen Amalan dan Perkembangan"
+    },
+    {
+      "title": "Mesyuarat Pencapaian 2025 dan Penyediaan Pelan Tindakan BKPJ 2026",
+      "date": "15–16 Januari 2026",
+      "urusetia": "Seksyen Penjagaan Kesihatan"
+    },
+    {
+      "title": "Mesyuarat JPKA JKPAK Suku 4 (Okt–Dis 2025)",
+      "date": "23 Januari 2026",
+      "urusetia": "Seksyen Dasar & Perancangan"
+    },
+    {
+      "title": "Mesyuarat HSRAC BKPJ Bil. 1 Tahun 2026",
+      "date": "30 Januari 2026",
+      "urusetia": "Seksyen Dasar & Perancangan"
     }
   ],
+
   "Februari": [
     {
-      "title": "Mesyuarat Pencapaian dan POA Kepakaran BKPJ",
+      "title": "Mesyuarat Pencapaian dan POA Kepakaran BKPJ Tahun 2026",
       "date": "3 Februari 2026",
       "urusetia": "Seksyen Penjagaan Kesihatan"
+    },
+    {
+      "title": "Mesyuarat JKKP BKPJ Bil. 1/2026",
+      "date": "5 Februari 2026",
+      "urusetia": "Seksyen Perundangan dan Penguatkuasaan"
+    },
+    {
+      "title": "Mesyuarat Pra Penyemakan Markah Lantikan Tetap PP Kohort 1/24 (bersama Penyelarasan NDO Daerah)",
+      "date": "26 Februari 2026",
+      "urusetia": "Seksyen Amalan dan Perkembangan"
     }
   ],
+
   "Mac": [
     {
       "title": "Mesyuarat Pengurusan dan Teknikal (MPTEK) Bil. 1",
       "date": "10 Mac 2026",
       "urusetia": "Seksyen Dasar & Perancangan"
+    },
+    {
+      "title": "Mesyuarat Pegawai Sangkutan Kepakaran Bil. 1",
+      "date": "13 Mac 2026",
+      "urusetia": "Seksyen Dasar & Perancangan"
+    },
+    {
+      "title": "Mesyuarat Penyemakan Markah Lantikan Tetap Kohort 1/24",
+      "date": "9 Mac 2026",
+      "urusetia": "Seksyen Amalan dan Perkembangan"
+    },
+    {
+      "title": "Mesyuarat Kepakaran Hospital Based BKPJ Tahun 2026",
+      "date": "30 Mac 2026",
+      "urusetia": "Seksyen Penjagaan Kesihatan"
+    },
+    {
+      "title": "Mesyuarat Kepakaran Non Hospital Based BKPJ Tahun 2026",
+      "date": "31 Mac 2026",
+      "urusetia": "Seksyen Penjagaan Kesihatan"
     }
   ],
+
   "April": [
     {
       "title": "Mesyuarat JPKA JKPAK Suku 1 (Jan–Mac 2026)",
       "date": "23 April 2026",
       "urusetia": "Seksyen Dasar & Perancangan"
+    },
+    {
+      "title": "Mesyuarat Kepakaran Kesihatan Awam Pergigian BKPJ Bil. 1 Tahun 2026",
+      "date": "14 April 2026",
+      "urusetia": "Seksyen Dasar & Perancangan"
     }
   ],
-
-  // (data Mei–Disember yang sedia ada kekal di bawah)
-}
 
   "Mei": [
     {
@@ -38,6 +93,7 @@
       "urusetia": "Seksyen Dasar & Perancangan"
     }
   ],
+
   "Jun": [
     {
       "title": "Mesyuarat Pegawai Sangkutan Kepakaran Bil. 2",
@@ -45,52 +101,102 @@
       "urusetia": "Seksyen Dasar & Perancangan"
     },
     {
-      "title": "Mesyuarat Pra Penyemakan Markah Lantikan Tetap PP Kohort 2/24",
+      "title": "Mesyuarat Pra Penyemakan Markah Lantikan Tetap PP Kohort 2/24 (bersama Penyelarasan NDO Daerah)",
       "date": "25 Jun 2026",
       "urusetia": "Seksyen Amalan dan Perkembangan"
     }
   ],
+
   "Julai": [
     {
       "title": "Mesyuarat Pengurusan dan Teknikal (MPTEK) Bil. 3",
       "date": "23 Julai 2026",
       "urusetia": "Seksyen Dasar & Perancangan"
+    },
+    {
+      "title": "Mesyuarat JPKA JKPAK Suku 2 (April–Jun 2026)",
+      "date": "30 Julai 2026",
+      "urusetia": "Seksyen Dasar & Perancangan"
+    },
+    {
+      "title": "Mesyuarat Penyemakan Markah Lantikan Tetap Kohort 2/24",
+      "date": "9 Julai 2026",
+      "urusetia": "Seksyen Amalan dan Perkembangan"
     }
   ],
+
   "Ogos": [
     {
       "title": "Mesyuarat Penyelia dan Juruterapi Pergigian Kanan Bil. 2/2026",
       "date": "18 Ogos 2026",
       "urusetia": "Seksyen Dasar & Perancangan"
+    },
+    {
+      "title": "Mesyuarat Pra Penyemakan Markah Lantikan Tetap PP Kohort 3/24 (bersama Penyelarasan NDO Daerah)",
+      "date": "28 Ogos 2026",
+      "urusetia": "Seksyen Amalan dan Perkembangan"
+    },
+    {
+      "title": "Mesyuarat JKKP BKPJ Bil. 2/2026",
+      "date": "3 Ogos 2026",
+      "urusetia": "Seksyen Perundangan dan Penguatkuasaan"
     }
   ],
+
   "September": [
     {
       "title": "Mesyuarat Pengurusan dan Teknikal (MPTEK) Bil. 4",
       "date": "10 September 2026",
       "urusetia": "Seksyen Dasar & Perancangan"
+    },
+    {
+      "title": "Mesyuarat Pegawai Sangkutan Kepakaran Bil. 3",
+      "date": "21 September 2026",
+      "urusetia": "Seksyen Dasar & Perancangan"
+    },
+    {
+      "title": "Mesyuarat Penyemakan Markah Lantikan Tetap Kohort 3/24",
+      "date": "11 September 2026",
+      "urusetia": "Seksyen Amalan dan Perkembangan"
     }
   ],
+
   "Oktober": [
     {
-      "title": "Mesyuarat JPKA JKPAK Suku 3 (Julai–Sept 2026)",
+      "title": "Mesyuarat JPKA JKPAK Suku 3 (Julai–September 2026)",
       "date": "22 Oktober 2026",
+      "urusetia": "Seksyen Dasar & Perancangan"
+    },
+    {
+      "title": "Mesyuarat HSRAC BKPJ Bil. 2 Tahun 2026",
+      "date": "15 Oktober 2026",
       "urusetia": "Seksyen Dasar & Perancangan"
     }
   ],
+
   "November": [
     {
       "title": "Mesyuarat Pengurusan dan Teknikal (MPTEK) Bil. 5",
       "date": "19 November 2026",
       "urusetia": "Seksyen Dasar & Perancangan"
+    },
+    {
+      "title": "Mesyuarat Pra Penyemakan Markah Lantikan Tetap PP Kohort 4/24 (bersama Penyelarasan NDO Daerah)",
+      "date": "6 November 2026",
+      "urusetia": "Seksyen Amalan dan Perkembangan"
     }
   ],
+
   "Disember": [
     {
       "title": "Mesyuarat Pengurusan dan Teknikal (MPTEK) Bil. 6",
       "date": "17 Disember 2026",
       "urusetia": "Seksyen Dasar & Perancangan"
+    },
+    {
+      "title": "Mesyuarat Pegawai Sangkutan Kepakaran Bil. 4",
+      "date": "21 Disember 2026",
+      "urusetia": "Seksyen Dasar & Perancangan"
     }
   ]
 }
-
