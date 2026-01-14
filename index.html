@@ -11,53 +11,98 @@
       margin: 0;
       background: #f4f6f8;
     }
+
     header {
       background: #0f2a44;
       color: white;
       padding: 20px;
       text-align: center;
+      position: relative;
     }
+
+    header img {
+      position: absolute;
+      left: 20px;
+      top: 15px;
+      height: 70px;
+    }
+
+    .bar-arahan {
+      background: #f1f5f9;
+      color: #0f2a44;
+      font-size: 14px;
+      padding: 10px 16px;
+      border-bottom: 2px solid #0f2a44;
+      text-align: center;
+    }
+
     .container {
       max-width: 1000px;
       margin: 20px auto;
       padding: 0 16px;
     }
-    .filters input, .filters select {
+
+    .filters input,
+    .filters select {
       padding: 8px;
       margin-right: 6px;
       margin-bottom: 10px;
     }
+
     .month {
       background: white;
       margin-bottom: 16px;
       border-radius: 8px;
       overflow: hidden;
     }
+
     .month-header {
       background: #1f4d7a;
       color: white;
       padding: 10px 14px;
       font-weight: bold;
     }
+
     .meeting {
       padding: 12px 14px;
       border-top: 1px solid #eee;
     }
+
     .meeting-title {
       font-weight: bold;
     }
+
     .meeting-meta {
       font-size: 13px;
       color: #555;
+    }
+
+    @media (max-width: 600px) {
+      header img {
+        height: 50px;
+        top: 20px;
+      }
     }
   </style>
 </head>
 
 <body>
+
 <header>
+  <img src="logo-kerajaan.png" alt="Logo Kerajaan Malaysia">
   <h1>TAKWIM MESYUARAT 2026</h1>
   <p>Bahagian Kesihatan Pergigian<br>Jabatan Kesihatan Negeri Johor</p>
 </header>
+
+<div class="bar-arahan">
+  Sekiranya terdapat perubahan tarikh, mohon maklumkan kepada
+  <strong>Dr. Mohamad Hazwan bin Jamaludin</strong>
+  di talian <strong>010-6628023</strong> atau emel di
+  <a href="mailto:drmohdhazwan.j@moh.gov.my"
+     style="color:#0f2a44; text-decoration:underline;">
+     drmohdhazwan.j@moh.gov.my
+  </a>.
+</div>
 
 <div class="container">
   <div class="filters">
@@ -90,6 +135,7 @@ fetch('takwim-2026.json')
 function initFilters() {
   const bulan = document.getElementById('bulan');
   const urusetia = document.getElementById('urusetia');
+
   Object.keys(DATA).forEach(b => {
     bulan.innerHTML += `<option>${b}</option>`;
     DATA[b].forEach(m => {
@@ -121,8 +167,11 @@ function applyFilters() {
 function render(data) {
   const el = document.getElementById('takwim');
   el.innerHTML = '';
+
   Object.keys(data).forEach(b => {
-    let html = `<div class="month"><div class="month-header">${b} 2026</div>`;
+    let html = `<div class="month">
+      <div class="month-header">${b} 2026</div>`;
+
     data[b].forEach(m => {
       html += `
         <div class="meeting">
@@ -130,16 +179,14 @@ function render(data) {
           <div class="meeting-meta">${m.date} · ${m.urusetia}</div>
         </div>`;
     });
+
     html += '</div>';
     el.innerHTML += html;
   });
 }
 </script>
+
 </body>
 </html>
-
-
-
-
 
 
